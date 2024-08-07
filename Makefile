@@ -39,6 +39,5 @@ venv:
 Install-Package:
 	@powershell -NoProfile -ExecutionPolicy Bypass -Command \
 	"choco install pyenv-win -y --force; \
-	choco install openssl -y --force; \
-	choco install sqlite -y --force; \
+	choco install wget -y --force; \
 	Write-Host \"Package installation complete.\";"

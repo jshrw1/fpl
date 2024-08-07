@@ -1,0 +1,7 @@
+https://www.kaggle.com/code/gavinjpng/fpl-prediction-and-selection/notebook
+http://www.philipkalinda.com/ds9.html
+https://github.com/vaastav/Fantasy-Premier-League
+https://medium.com/@joseph.m.oconnor.88/linearly-optimising-fantasy-premier-league-teams-3b76e9694877
+https://medium.com/@joseph.m.oconnor.88/linearly-optimising-fantasy-premier-league-teams-part-2-2bd9c3b3d34e
+https://www.kaggle.com/datasets/ritviyer/fantasy-premier-league-dataset
+https://medium.com/datacomics/building-an-fpl-captain-classifier-cf4ee343ebcc
