@@ -1,6 +1,6 @@
 # Define variables for URLs and output paths
 $BaseUrl = "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data"
-$OutputDir = "C:\Users\JRawlings\Documents\fpl\data\raw"
+$OutputDir = "C:\Users\Joshua\Documents\python\jshrw1\fpl\data\raw"
 
 # List of years
 $Years = @("2020-21", "2021-22", "2022-23", "2023-24", "2024-25")
