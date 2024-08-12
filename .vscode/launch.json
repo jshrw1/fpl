@@ -2,7 +2,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "File",
+            "name": "Linear",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}\\models\\team_select.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+            "envFile": "${workspaceFolder}\\.env",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Data",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}\\fpl\\dataset.py",
