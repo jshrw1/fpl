@@ -1,22 +1,13 @@
--include .env
-export
-
 # Define Python version and path variables
-PYTHON_VERSION = 3.11.6
-OPENSSL_LIB=C:\ProgramData\chocolatey\lib\openssl\lib
-OPENSSL_INCLUDE=C:\ProgramData\chocolatey\lib\openssl\include
-
+PYTHON_VERSION = 3.10.5
 
 choco:
 	@echo "Installing packages with Chocolatey"choco upgrade chocolatey
 	@powershell  -Command "make Install-Package"
 	@echo "All packages installed."
-	@powershell -Command "pip install pre-commit"
 
 # Installation and configuration commands
 python-setup:
-	@set "LDFLAGS=-L$(OPENSSL_LIB)"
-	@set "CPPFLAGS=-I$(OPENSSL_INCLUDE)"
 	@pyenv update
 	@pyenv install $(PYTHON_VERSION)
 	@pyenv local $(PYTHON_VERSION)
